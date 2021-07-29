@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header_opening_section {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background:url(../image/000_mediterranean-cuisine-2378758.jpg);
+    background-size:cover;
+    background-position: center;
+
+
+}
+
+.header_opening_section a {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    font-size: 37px;
+    transform: translateX(-50%);
+    background-color: rgb(14, 168, 40);
+    color: white;
+    font-style: italic;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+.header_opening_section a {
+    text-decoration: none;
+}
+
+.header_opening_section a:hover {
+    opacity: 1;
+}
+
+.header_Opening_img {
+    height: 100%;
+    width: 100vw;
+    position: relative;
+} 
+
+.header_Opening_h1 {
+    display: inline;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    font-size: 70px;
+    margin-top: 22px;
+    margin-left: 22px;
+    color: rgb(22, 22, 22);
+    text-shadow: 0px 0px 11px wheat;
+    /* outline-width: 20px;
+    outline-style: solid
+    outline-color: yellow; */
+    
+}
+
+#opening_h1_red_color {
+    color: rgb(122, 7, 7);
+    text-shadow: 0px 0px 10px aliceblue;
+}
+
+nav ul {
+    width: 98vw;
+    height: 8vh;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: content;
+    justify-content: space-evenly;
+    background-color: rgb(228, 231, 235);
+    color: rgb(122, 7, 7);
+    font-size: 28px;
+    margin-top: 16px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.section_nav a:hover {
+    color: rgb(126, 34, 34);
+    border-color: rgb(240, 75, 75);
+    border-style: solid;
+    padding: 1px 5px 3px 5px;
+    transform: scale(1.8);
+    
+}
+
+.Section_Logo {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 243, 245);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Section_Logo img {   
+   height: 100%;
+}
+
+#arrow_up {
+    position: sticky;
+    width: 5px;
+    height: 5px;
+    right: 10px;
+    position: absolute;
+}
+
+.Yogurt_Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#Yogurt_Picture {
+    width: 95vw;
+    height: 98vh;
+    /* margin-top: 44px;
+    margin-left: 31px; */
+}
+
+#Yogurt_h2 {
+    position: absolute;
+    background-color: rgb(241, 226, 226);
+    padding: 1px 4px 0px 4px;
+    border-radius: 8px;
+    left: 38px;
+    top: 17px;
+}
+
+#YogurtTwo_h2 {
+    position: absolute;
+    background-color: rgb(218, 200, 185);
+    border-radius: 8px;
+    padding: 1px 4px 0px 4px;
+    left: 38px;
+    top: 14%;
+}
+
+#video_recipe {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.video_section {
+
+}
+
+.video_section h2{
+   position: absolute;
+   right: 10%;
+   margin-top: 13%;
+   display: inline;
+   font-size: 53px;
+}
+
+#Video_of_the_Week_h2 {
+    position: absolute;
+    right: 9%;
+    margin-top: 13%;
+    display: inline;
+    font-size: 53px;
+}
+
+
+footer {
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(0, 0, 0);
+    margin-top: 100px;
+    color: white;
+}
+
+/* footer img {
+    height: 80%;
+    height: 80%;
+    float: right;
+} */
+
+table, th, td {
+    border: 10px solid black
+}
+
+th {
+   color: rgb(242, 242, 85);
+}
+
